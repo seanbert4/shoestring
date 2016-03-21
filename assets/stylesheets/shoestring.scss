@@ -13,15 +13,6 @@ body {
     padding-right: 20px;
   }
 
-  [class*='col-']:last-of-type {
-    padding-right: 20px;
-  }
-
-  [class*='col-']:first-of-type {
-    padding-left: 20px;
-  }
-
-
   h1 {
     color: black;
 
@@ -38,6 +29,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     clear: both;
+    padding-left: 26px;
   }
 
   .row {
@@ -76,6 +68,7 @@ body {
       width: 100%;
       clear: both;
       font-weight: bold;
+      padding-left: 20px;
     }
   }
 
@@ -114,20 +107,18 @@ body {
 
   .navbar {
     background-color: black;
-    height: 20px;
     padding-bottom: 15px;
     padding-top: 15px;
-    margin-top: -55px
+    margin-top: -55px;
+    overflow: hidden;
   }
 
   .navbar-brand {
     float: left;
     padding-left: 20px;
     padding-bottom: 8px
-
-
-
   }
+
   .navbar-right {
     float: right;
     padding-right: 15px;
@@ -160,7 +151,6 @@ body {
   .breadcrumb li a {
     color: #337AB7;
     text-decoration: none; 
-  /*  padding: 10px 0 10px 65px;*/
     padding-right: 10px;
     position: relative; 
     display: block;
@@ -170,14 +160,6 @@ body {
   .list-inline li{
       display: inline;
   }
-
-
-/*  .list*/
-
-
-
-
-
 }
 
 

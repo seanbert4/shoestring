@@ -444,6 +444,23 @@ footer {
     /* increases the carousel height so it looks good on phones */ } }
 
 body {
+  /*  padding: 20px;*/
+  /*  
+
+  [class*='col-']:last-of-type {
+    padding-right: 20px;
+  }
+
+  [class*='col-']:first-of-type {
+    padding-left: 20px;
+  }
+
+  .col-img-4:nth-of-type(2) {
+    padding-left: 20px;
+  }
+
+
+*/
   /*  .list*/ }
   body *, body *:after, body *:before {
     -webkit-box-sizing: border-box;
@@ -451,10 +468,6 @@ body {
     box-sizing: border-box; }
   body [class*='col-'] {
     padding-right: 20px; }
-  body [class*='col-']:last-of-type {
-    padding-right: 20px; }
-  body [class*='col-']:first-of-type {
-    padding-left: 20px; }
   body h1 {
     color: black; }
     body h1 small {
@@ -465,7 +478,8 @@ body {
   body .container {
     margin-left: auto;
     margin-right: auto;
-    clear: both; }
+    clear: both;
+    padding-left: 26px; }
   body .row {
     clear: both;
     width: 100%;
@@ -493,7 +507,8 @@ body {
       float: left;
       width: 100%;
       clear: both;
-      font-weight: bold; }
+      font-weight: bold;
+      padding-left: 20px; }
   body .col-lg-4 {
     float: left;
     width: 33%; }
@@ -517,10 +532,11 @@ body {
     clear: both; }
   body .navbar {
     background-color: black;
-    height: 20px;
+    /*height: 20px;*/
     padding-bottom: 15px;
     padding-top: 15px;
-    margin-top: -55px; }
+    margin-top: -55px;
+    overflow: hidden; }
   body .navbar-brand {
     float: left;
     padding-left: 20px;
